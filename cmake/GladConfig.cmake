@@ -35,6 +35,9 @@
 #   glad_add_library(glad_gl_compat_10 MODULE API gl:compatibility=1.0 EXTENSIONS GL_EXT_COMPRESSION_s3tc)
 #   ```
 # - create  a static glad library with the vulkan=1.1
+#   ```
+#   glad_add_library(glad_vulkan_11 STATIC API vulkan=1.1)
+#   ```
 
 # Extract specification, profile and version from a string
 # examples:
